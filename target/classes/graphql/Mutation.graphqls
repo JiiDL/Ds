@@ -1,0 +1,7 @@
+type Mutation {
+    saveComputer(
+        computerDto: ComputerR): Computer
+
+    deleteComputer(id: ID): Boolean
+
+}

@@ -1,0 +1,4 @@
+type Query {
+    getComputersByProcessor(processor: String): [Computer]
+    getComputerByPrice(price: Float): [Computer]
+}
